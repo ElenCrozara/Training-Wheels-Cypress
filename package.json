@@ -15,6 +15,7 @@
   "author": "Elen Crozara",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^9.6.1"
+    "cypress": "^9.6.1",
+    "cypress-real-events": "^1.7.0"
   }
 }
