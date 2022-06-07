@@ -5,7 +5,7 @@ it('Selecioanr a data de nascimento', function(){
     cy.get('.datetimepicker-dummy-input').click()
     cy.get('.datepicker-nav-month').click()
     cy.contains('.datepicker-month', 'nov').click()
-    cy.contains('.datepicker-nav-year').click()
+    cy.get('.datepicker-nav-year').click()
     cy.contains('.datepicker-year span', '1984').click()
     cy.contains('.date-item', '12').click()
 })
